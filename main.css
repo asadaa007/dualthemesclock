@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    position: relative;
+}
+.selectThm{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: gray;
+    color: #fff;
+    padding: 20px;
+    border-radius: 50px;
+}
+.selectThm select{
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    color: gray;
+    border-radius: 25px;
+    border: none;
+
+}
+.selectThm select option{
+    background-color: gray;
+    color: #fff;
+}
